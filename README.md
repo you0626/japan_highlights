@@ -114,3 +114,4 @@
 
 ## Association
 -	belongs_to :reporter, class_name: ‘User’
+

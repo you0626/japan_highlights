@@ -72,3 +72,25 @@ group :test do
 end
 
 gem 'concurrent-ruby', '1.3.4'
+
+gem 'bcrypt', '~> 3.1' # パスワードのハッシュ化（has_secure_password 用）
+gem 'devise'           # 認証機能を簡単に実装できるGem
+
+gem 'ransack'          # 検索機能を実装するため
+gem 'acts_as_taggable_on' # タグ機能を簡単に実装できる
+
+gem 'timecop'          # 時間を操作するテストのため
+
+gem 'validates_timeliness' # 日付や時刻のバリデーション
+gem 'annotate'            # テーブルのスキーマをモデルに自動出力
+
+gem 'carrierwave'      # 画像・動画アップロード
+gem 'mini_magick'      # 画像処理（CarrierWaveと併用）
+gem 'fog-aws'         # AWS S3にアップロードする場合
+
+gem 'activeadmin'      # 管理画面を簡単に作成
+gem 'pundit'          # 権限管理
+
+gem 'faker'           # テストデータ生成
+gem 'factory_bot_rails' # テスト用データ作成
+gem 'pry-rails'       # Railsコンソールのデバッグ用
