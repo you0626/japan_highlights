@@ -77,7 +77,7 @@ gem 'bcrypt', '~> 3.1' # パスワードのハッシュ化（has_secure_password
 gem 'devise'           # 認証機能を簡単に実装できるGem
 
 gem 'ransack'          # 検索機能を実装するため
-gem 'acts_as_taggable_on' # タグ機能を簡単に実装できる
+gem 'acts-as-taggable-on', require: 'acts_as_taggable_on' # タグ機能を簡単に実装できる
 
 gem 'timecop'          # 時間を操作するテストのため
 
